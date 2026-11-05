@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/Class_11_IP_Chapter_5_Understanding_Data.html"
+  to = "/"
+  status = 301
