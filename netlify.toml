@@ -1,0 +1,10 @@
+# Plain static site: no build step, publish the repository root.
+[build]
+  command = ""
+  publish = "."
+
+# Serve the chapter page at the site root.
+[[redirects]]
+  from = "/"
+  to = "/Class_11_IP_Chapter_5_Understanding_Data.html"
+  status = 200
